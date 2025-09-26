@@ -6,8 +6,8 @@
 </head>
 <body>
     <div id="app">  <!--View-->
-        <h3>{{Firstname}}</h3>
-        <h3>{{Listname}}</h3>
+        <h3>{{FirstName}}</h3>
+        <h3>{{ListName}}</h3>
         <h3>{{fullName()}}</h3>
     </div>
 
@@ -17,13 +17,13 @@
         var vueApp={    
             data(){
                 return{ //model
-                    Firstname:"John",
-                    Listname:"Doe",
+                    FirstName:"John",
+                    ListName:"Doe",
                 };
             },
             methods:{ //controller
                 fullName:function(){
-                    
+                    return `${this.FirstName} ${this.ListName}`;
                 },
             }            
         };
