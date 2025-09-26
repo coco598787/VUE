@@ -24,6 +24,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/VUE/AJAX/AJAX/WebFront/Views/Home/Basic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCYXNpYy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/VUE/AJAX/AJAX/WebFront/Views/Home/CheckName.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGVja05hbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
