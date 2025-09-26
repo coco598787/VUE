@@ -12,20 +12,20 @@
     這樣會抓到最新版本，可能會有相容性問題,但每次版本不一
     <script src="https://unpkg.com/vue@latest"></script>
     -->
-     <!-- 寫這比較好 -->    
-     <script src="https://unpkg.com/vue@3.5.22/dist/vue.global.js"></script>  
-     <script>
-        var vueApp={    
-            data(){
-                return{ //model
-                   message:"Hello Vue!"
-                };
-            },
-            methods:{ //controller
-               
-            }            
-        };
-        var app=Vue.createApp(vueApp).mount('#app'); //View
-     </script> 
+    <!-- 寫這比較好 -->    
+    <script src="https://unpkg.com/vue@3.5.22/dist/vue.global.js"></script>  
+    <script>
+    var vueApp={    
+        data(){
+            return{ //model
+                message:"Hello Vue!"
+            };
+        },
+        methods:{ //controller
+            
+        }            
+    };
+    var app=Vue.createApp(vueApp).mount('#app'); //View
+    </script> 
 </body>
 </html>
