@@ -36,13 +36,13 @@
             },
             watch:{
                 twd(newVal,oriVal){
-                    this.usd=newVal/this.rate;
+                    this.usd = (newVal/this.rate).toFixed(2);
                 },
                 usd(newVal,oriVal){
-                    this.twd=newVal*this.rate;
+                    this.twd = (newVal*this.rate).toFixed(2);
                 },
                 rate(newVal,oriVal){
-                    this.rate=twd*this.rate;
+                    this.rate = (twd*this.rate).toFixed(2);
                 },
             },
         };
