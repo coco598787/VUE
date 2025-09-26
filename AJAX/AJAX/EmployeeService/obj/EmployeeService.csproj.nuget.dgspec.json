@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\temp\\AJAX\\EmployeeService\\EmployeeService.csproj": {}
+    "C:\\VUE\\AJAX\\AJAX\\EmployeeService\\EmployeeService.csproj": {}
   },
   "projects": {
-    "F:\\temp\\AJAX\\EmployeeService\\EmployeeService.csproj": {
+    "C:\\VUE\\AJAX\\AJAX\\EmployeeService\\EmployeeService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\temp\\AJAX\\EmployeeService\\EmployeeService.csproj",
+        "projectUniqueName": "C:\\VUE\\AJAX\\AJAX\\EmployeeService\\EmployeeService.csproj",
         "projectName": "EmployeeService",
-        "projectPath": "F:\\temp\\AJAX\\EmployeeService\\EmployeeService.csproj",
-        "packagesPath": "C:\\Users\\ispan\\.nuget\\packages\\",
-        "outputPath": "F:\\temp\\AJAX\\EmployeeService\\obj\\",
+        "projectPath": "C:\\VUE\\AJAX\\AJAX\\EmployeeService\\EmployeeService.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\VUE\\AJAX\\AJAX\\EmployeeService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ispan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
