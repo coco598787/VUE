@@ -45,6 +45,15 @@
                     this.usd = (this.twd/this.rate).toFixed(2);
                 },
             },
+            mounted:function(){ //讀取json文件
+                var response = await fetch("https://openapi.taifex.com.tw/v1/DailyForeignExchangeRates",{
+                    method:"GET"
+                });
+                if(response.ok){
+                    var data=await response.json();
+                    alert(JASON.stringify(data));
+                }
+            }
         };
         var app=Vue.createApp(vueApp).mount("#app");
     </script>  
