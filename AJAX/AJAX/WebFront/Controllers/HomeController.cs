@@ -51,6 +51,13 @@ namespace WebFront.Controllers
 			return View();
 		}
 
+		// GET: Home/Rate
+		[HttpGet]
+		public IActionResult Rate()
+		{
+			return View();
+		}
+
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
