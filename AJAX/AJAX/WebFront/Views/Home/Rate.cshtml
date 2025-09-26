@@ -34,6 +34,17 @@
             methods:{
             
             },
+            watch:{
+                twd(newVal,oriVal){
+                    this.usd=newVal/this.rate;
+                },
+                usd(newVal,oriVal){
+                    this.twd=newVal*this.rate;
+                },
+                rate(newVal,oriVal){
+                    this.rate=twd*this.rate;
+                },
+            },
         };
         var app=Vue.createApp(vueApp).mount("#app");
     </script>  
