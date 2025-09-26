@@ -22,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedHeight": 59,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -36,7 +40,7 @@
               "RelativeDocumentMoniker": "WebFront\\Views\\Home\\Rate.cshtml",
               "ToolTip": "C:\\VUE\\AJAX\\AJAX\\WebFront\\Views\\Home\\Rate.cshtml",
               "RelativeToolTip": "WebFront\\Views\\Home\\Rate.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-26T06:50:46.173Z",
               "EditorCaption": ""
@@ -51,8 +55,7 @@
               "RelativeToolTip": "WebFront\\Views\\Home\\Basic.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-26T05:35:23.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T05:35:23.264Z"
             },
             {
               "$type": "Document",
