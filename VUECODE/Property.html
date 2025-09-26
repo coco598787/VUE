@@ -19,16 +19,28 @@
                 return{ //model
                     FirstName:"John",
                     ListName:"Doe",
+                    Age:20,
                 };
+            },
+            props:{
+                pAge:{type:Number,default:30}
             },
             methods:{ //controller
                 fullName:function(){
                     return `${this.FirstName} ${this.ListName}`;
                 },
+            },
+            computed:{
+                cAge(){
+                    return this.Age+this.pAge;
+                }
             }            
         };
         var app=Vue.createApp(vueApp).mount("#app"); //View
-        console.log(app.FirstName);
+        // console.log(app.FirstName);
+        console.log(`Age=${app.Age}`);
+        console.log(`pAge=${app.pAge}`);
+        console.log(`cAge=${app.cAge}`);
     </script> 
 </body>
 </html>
