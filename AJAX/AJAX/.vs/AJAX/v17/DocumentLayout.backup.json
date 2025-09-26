@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "WebFront\\Views\\Home\\Rate.cshtml",
               "ToolTip": "C:\\VUE\\AJAX\\AJAX\\WebFront\\Views\\Home\\Rate.cshtml",
               "RelativeToolTip": "WebFront\\Views\\Home\\Rate.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-26T06:50:46.173Z",
               "EditorCaption": ""
@@ -79,8 +79,7 @@
               "RelativeToolTip": "WebFront\\Controllers\\HomeController.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAA0wDcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T05:33:56.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T05:33:56.761Z"
             }
           ]
         }
