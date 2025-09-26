@@ -38,11 +38,11 @@
                 twd(newVal,oriVal){
                     this.usd = (newVal/this.rate).toFixed(2);
                 },
-                usd(newVal,oriVal){
-                    this.twd = (newVal*this.rate).toFixed(2);
-                },
+                // usd(newVal,oriVal){
+                //     this.twd = (newVal*this.rate).toFixed(2);
+                // },
                 rate(newVal,oriVal){
-                    this.rate = (twd*this.rate).toFixed(2);
+                    this.usd = (this.twd/this.rate).toFixed(2);
                 },
             },
         };
