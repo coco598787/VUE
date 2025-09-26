@@ -6,23 +6,25 @@
 </head>
 <body>
     <div id="app">  <!--View-->
-        <h3>{{message}}</h3>
+        <h3>{{Firstname}}</h3>
+        <h3>{{Listname}}</h3>
+        <h3>{{fullName()}}</h3>
     </div>
-    <!-- 
-    這樣會抓到最新版本，可能會有相容性問題,但每次版本不一
-    <script src="https://unpkg.com/vue@latest"></script>
-    -->
+
     <!-- 寫這比較好 -->    
     <script src="https://unpkg.com/vue@3.5.22/dist/vue.global.js"></script>  
     <script>
         var vueApp={    
             data(){
                 return{ //model
-                    message:"Hello Vue!"
+                    Firstname:"John",
+                    Listname:"Doe",
                 };
             },
             methods:{ //controller
-                
+                fullName:function(){
+                    
+                },
             }            
         };
         var app=Vue.createApp(vueApp).mount("#app"); //View
