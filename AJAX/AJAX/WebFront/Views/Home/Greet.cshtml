@@ -1,0 +1,71 @@
+﻿<button id="getGreet" class="btn btn-outline-primary">GetGreet</button>
+<button id="postGreet" class="btn btn-outline-primary">PostGreet</button>
+<img id="progress" src="~/images/hourglass.gif" style="display:none" />
+<br />
+<span id="result" class="text-danger"></span>
+
+@section Scripts
+{
+    <script>
+        var baseAddress="https://localhost:7236";       // Developint
+        //var baseAddress="https://xxxx";               // Staging
+        //var baseAddress="https://yyyy";               // Production
+
+        $("#getGreet").on("click", async function(){
+            //alert("getGreet");
+            // var p=encodeURI("Name=小明");
+            // $("#progress").show();
+            // await fetch(`${baseAddress}/Ajax/Greet?${p}`, {
+            //     method:"GET"
+            // }).then(response=>{
+            //     $("#progress").hide();
+            //     if (response.ok){
+            //         return response.text();
+            //     }
+            // }).then(data=>{
+            //     $("#result").text(data);
+            // }).catch(err=>{
+            //     $("#progress").hide();
+            //     alert(err.message);
+            // });
+            try{
+                $("#progress").show();
+                var p=encodeURI("Name=小明");
+                var response=await fetch(`${baseAddress}/Ajax/Greet?${p}`, {
+                    method:"GET"
+                });
+                $("#progress").hide();
+                if (response.ok){
+                    var data=await response.text();
+                     $("#result").text(data);
+                }
+            }
+            catch(err){
+                $("#progress").hide();
+                alert(err.message);
+            }
+        });
+
+        $("#postGreet").on("click", async ()=>{
+            //alert("postGreet");
+            try{
+                $("#progress").show();
+                var form=new FormData();
+                form.append("Name", "小強");
+                var response=await fetch(`${baseAddress}/Ajax/PostGreet`, {
+                    method:"POST",
+                    body:form
+                });
+                $("#progress").hide();
+                if (response.ok){
+                    var data=await response.text();
+                    $("#result").text(data);
+                }
+            }
+            catch(err){
+                $("#progress").hide();
+                alert(err.message);
+            }
+        });
+    </script>
+}

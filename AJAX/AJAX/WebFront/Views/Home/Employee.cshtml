@@ -1,0 +1,150 @@
+﻿<button id="getEmployees" class="btn btn-outline-success">GetEmployees</button>
+<button id="getEmployeeById" class="btn btn-outline-success">GetEmployeeById</button>
+<button id="insertEmployee" class="btn btn-outline-success">InsertEmployee</button>
+<button id="updateEmployee" class="btn btn-outline-success">UpdateEmployee</button>
+<button id="deleteEmployee" class="btn btn-outline-success">DeleteEmployee</button>
+<button id="atm" class="btn btn-outline-success">ATM</button>
+<input id="Id" />
+
+@section Scripts
+{
+    <script>
+        var baseAddress="https://localhost:7181";
+        $("#getEmployees").on("click", async ()=>{
+            //alert("getEmployees");
+            try{
+                var response=await fetch(`${baseAddress}/api/Employees`, {
+                    method:"GET"
+                });
+                if (response.ok){
+                    var data=await response.json();
+                    alert(JSON.stringify(data));
+                }
+            }
+            catch(err){
+                alert(err.message);
+            }
+        });
+
+        $("#getEmployeeById").on("click", async ()=>{
+            //alert("getEmployeeById");
+            try{
+                var Id=$("#Id").val();
+                var response=await fetch(`${baseAddress}/api/Employees/${Id}`, {
+                    method:"GET"
+                });
+                if (response.ok){
+                    var data=await response.json();
+                    alert(JSON.stringify(data));
+                }
+            }
+            catch(err){
+                alert(err.message);
+            }
+        });
+
+        $("#insertEmployee").on("click", async ()=>{
+            //alert("insertEmployee");
+            var Emp={
+              "employeeId": 0,
+              "firstName": $("#firstName").val(),
+              "lastName": $("#lastName").val(),
+              "title": $("#title").val()
+            };
+            try{
+                var response=await fetch(`${baseAddress}/api/Employees`, {
+                    method:"POST",
+                    body:JSON.stringify(Emp),
+                    headers:{
+                        "content-type":"application/json"
+                    },
+                });
+                if (response.ok){
+                    var data=await response.json();
+                    //alert(JSON.stringify(data));
+                    if (data.ok){
+                        alert("新增員工記錄成功!");
+                    }
+                    else{
+                        alert("新增員工記錄失敗!");
+                    }
+                }
+            }
+            catch(err){
+                alert(err.message);
+            }
+        });
+
+        $("#updateEmployee").on("click", async ()=>{
+            //alert("updateEmployee");
+            var Emp={
+              "employeeId": 13,
+              "firstName": "小明",
+              "lastName": "陳",
+              "title": "CEO"
+            };
+            try{
+                var response=await fetch(`${baseAddress}/api/Employees/13`, {
+                    method:"PUT",
+                    body:JSON.stringify(Emp),
+                    headers:{
+                        "content-type":"application/json"
+                    },
+                });
+                if (response.ok){
+                    var data=await response.json();
+                    //alert(JSON.stringify(data));
+                    if (data.ok){
+                        alert("修改員工記錄成功!");
+                    }
+                    else{
+                        alert("修改員工記錄失敗!");
+                    }
+                }
+            }
+            catch(err){
+                alert(err.message);
+            }
+        });
+
+        $("#deleteEmployee").on("click", async ()=>{
+            //alert("deleteEmployee");
+            try{
+                var Id=$("#Id").val();
+                var response=await fetch(`${baseAddress}/api/Employees/${Id}`, {
+                    method:"DELETE"
+                });
+                if (response.ok){
+                    var data=await response.json();
+                    //alert(JSON.stringify(data));
+                    if (data.ok){
+                        alert("刪除員工記錄成功!");
+                    }
+                    else{
+                        alert("刪除員工記錄失敗!");
+                    }
+                }
+            }
+            catch(err){
+                alert(err.message);
+            }
+        });
+
+        $("#atm").on("click", async ()=>{
+            //alert("atm");
+            try{
+                var response=await fetch("https://govdata.bot.com.tw/24961/1/ByCountry?country=台北市", {
+                    method:"GET"
+                });
+                if (response.ok){
+                    var data=await response.json();
+                    alert(JSON.stringify(data));
+                }
+            }
+            catch(err){
+                alert(err.message);
+            }
+        });
+
+    </script>
+}
