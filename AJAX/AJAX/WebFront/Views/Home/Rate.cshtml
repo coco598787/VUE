@@ -45,8 +45,9 @@
                     this.usd = (this.twd/this.rate).toFixed(2);
                 },
             },
-            mounted:function(){ //讀取json文件
-                var response = await fetch("https://openapi.taifex.com.tw/v1/DailyForeignExchangeRates",{
+            mounted:async function(){ //讀取json文件
+                var baseAddress="https://localhost:7236";
+                var response = await fetch(`${baseAddress}/Home/GetExchangeRate`,{
                     method:"GET"
                 });
                 if(response.ok){

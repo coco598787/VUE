@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using WebFront.Models;
 
@@ -57,6 +58,19 @@ namespace WebFront.Controllers
 		{
 			return View();
 		}
+
+		// GET: Home/GetExchangeRate
+		[HttpGet]
+        public async Task<string> GetExchangeRate() 
+        {
+            string Uri = "https://openapi.taifex.com.tw/v1/DailyForeignExchangeRates";
+            HttpClient Client = new HttpClient();
+            HttpResponseMessage Response = await Client.GetAsync(Uri);
+            Response.EnsureSuccessStatusCode();
+
+            string Data = await Response.Content.ReadAsStringAsync();
+			return Data;
+        }
 
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
