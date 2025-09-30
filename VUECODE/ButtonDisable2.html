@@ -6,7 +6,8 @@
 </head>
 <body>
     <div id="app">  <!--View-->
-        <button v-bind:disabled="agree" v-on:click="buy">購買</button>
+        <input type="checkbox" v-model="agree"/>我以閱讀並同意條款         
+        <button v-bind:disabled="agree" >購買</button>
     </div>
    
     <!-- 寫這比較好 -->    
@@ -19,10 +20,7 @@
                 };
             },
             methods:{ //controller
-                buy:function(){
-                    // alert("buy");  
-                    this.clicked=true;
-                }
+               
             }            
         };
         var app=Vue.createApp(vueApp).mount("#app"); //View
