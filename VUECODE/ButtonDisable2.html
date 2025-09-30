@@ -6,7 +6,7 @@
 </head>
 <body>
     <div id="app">  <!--View-->
-        <button v-bind:disabled="clicked" v-on:click="buy">購買</button>
+        <button v-bind:disabled="agree" v-on:click="buy">購買</button>
     </div>
    
     <!-- 寫這比較好 -->    
@@ -15,7 +15,7 @@
         var vueApp={    
             data(){
                 return{ //model
-                    clicked:false
+                    agree:true
                 };
             },
             methods:{ //controller
