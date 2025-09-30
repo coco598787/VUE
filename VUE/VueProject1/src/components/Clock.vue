@@ -67,3 +67,11 @@ export default {
   }
 };
 </script>
+<style>
+    .clock {
+        color: rgb(207, 151, 9);
+        padding: 0.3rem 0.6rem;
+        font-size: 3rem;
+        font-family: "Menlo", monospace;
+    }
+</style>
