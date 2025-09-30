@@ -9,5 +9,18 @@
 
 @section Scripts
 {
-    <script></script>
+    <script src="https://unpkg.com/vue@3.5.22/dist/vue.global.js"></script>
+    <script>
+        var vueApp={
+            data(){
+                return{ //model
+                    
+                };
+            },
+            methods:{ //controller
+                
+            }
+        };
+        var app=Vue.createApp(vueApp).mount("#app"); //View
+    </script>
 }
