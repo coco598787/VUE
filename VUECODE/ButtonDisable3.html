@@ -13,7 +13,7 @@
             <label for="form-label">帳號</label>
         </div>
         <div class="form-floating mb-3">
-            <input type="password" class="form-control" v-model="password" placeholder=""/>
+            <input type="password" class="form-control" v-model="password" placeholder="" v-on:keyup="enableLogin"/>
             <label for="form-label">密碼</label>
         </div>
         <div class="mb-3">
@@ -33,7 +33,7 @@
             },
             methods:{ //controller
                enableLogin:function(){
-                    alert("ketup");
+                    // alert("ketup");
                }
             }            
         };
