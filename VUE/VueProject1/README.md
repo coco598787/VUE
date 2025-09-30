@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-npm install
+npm install     //建立node資料夾
 ```
 
 ### Compiles and hot-reloads for development
