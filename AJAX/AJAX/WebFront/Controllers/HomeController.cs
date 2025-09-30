@@ -75,6 +75,13 @@ namespace WebFront.Controllers
 			return Rates.Last().USDNTD;
         }
 
+		// GET: Home/Buy
+		[HttpGet]
+		public IActionResult Buy()
+		{
+			return View();
+		}
+
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
