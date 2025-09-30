@@ -35,7 +35,7 @@
             methods:{ //controller
                 enableLogin:function(){
                         // alert("ketup");
-                        this.disableLogin = this.userName.length <= 0 || this.password.length <= 0;
+                        this.disableLogin = (this.userName.length <= 0) || (this.password.length <= 0);
                 },
                 login:function(){
                         alert("login");
