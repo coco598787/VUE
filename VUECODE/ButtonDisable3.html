@@ -17,7 +17,7 @@
             <label for="form-label">密碼</label>
         </div>
         <div class="mb-3">
-            <button class="btn btn-primary" v-bind:disabled="disableLogin">登入</button>
+            <button class="btn btn-primary" v-bind:disabled="disableLogin" v-on:click="login">登入</button>
         </div>
     </div>
    
@@ -27,16 +27,19 @@
         var vueApp={    
             data(){
                 return{ //model
-                     userName:"",
-                     password:"",
-                     disableLogin:true
+                    userName:"",
+                    password:"",
+                    disableLogin:true
                 };
             },
             methods:{ //controller
-               enableLogin:function(){
-                    // alert("ketup");
-                    this.disableLogin = this.userName.length <= 0 || this.password.length <= 0;
-               }
+                enableLogin:function(){
+                        // alert("ketup");
+                        this.disableLogin = this.userName.length <= 0 || this.password.length <= 0;
+                },
+                login:function(){
+                        alert("login");
+                }
             }            
         };
         var app=Vue.createApp(vueApp).mount("#app"); //View
