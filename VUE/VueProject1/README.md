@@ -7,7 +7,7 @@ npm install     //建立node資料夾
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run serve   //設定名稱
 ```
 
 ### Compiles and minifies for production
