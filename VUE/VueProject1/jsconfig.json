@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es5",  //版本
     "module": "esnext",
     "baseUrl": "./",
     "moduleResolution": "node",
     "paths": {
       "@/*": [
-        "src/*"
+        "src/*" //資料放哪
       ]
     },
     "lib": [
