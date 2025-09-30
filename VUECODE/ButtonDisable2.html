@@ -7,7 +7,7 @@
 <body>
     <div id="app">  <!--View-->
         <input type="checkbox" v-model="agree"/>我以閱讀並同意條款         
-        <button v-bind:disabled="agree" >購買</button>
+        <button v-bind:disabled="!agree" >購買</button>
     </div>
    
     <!-- 寫這比較好 -->    
@@ -16,7 +16,7 @@
         var vueApp={    
             data(){
                 return{ //model
-                    agree:true
+                    agree:false
                 };
             },
             methods:{ //controller
