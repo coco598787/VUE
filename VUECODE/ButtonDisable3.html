@@ -17,7 +17,7 @@
             <label for="form-label">密碼</label>
         </div>
         <div class="mb-3">
-            <button class="btn btn-primary">登入</button>
+            <button class="btn btn-primary" v-bind:disabled="disableLogin">登入</button>
         </div>
     </div>
    
@@ -28,12 +28,14 @@
             data(){
                 return{ //model
                      userName:"",
-                     password:""
+                     password:"",
+                     disableLogin:true
                 };
             },
             methods:{ //controller
                enableLogin:function(){
                     // alert("ketup");
+                    this.disableLogin = this.userName.length <= 0 || this.password.length <= 0;
                }
             }            
         };
