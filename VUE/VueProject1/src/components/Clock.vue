@@ -67,7 +67,7 @@ export default {
   }
 };
 </script>
-<style>
+<style scope> 
     .clock {
         color: rgb(207, 151, 9);
         padding: 0.3rem 0.6rem;
