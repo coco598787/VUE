@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Text.Json;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using WebFront.Models;
@@ -69,7 +70,9 @@ namespace WebFront.Controllers
             Response.EnsureSuccessStatusCode();
 
             string Data = await Response.Content.ReadAsStringAsync();
-			return Data;
+			//使用System.Text.Json進行JSON反序列化
+			ExchangeRate[] Rates = JsonSerializer.Deserialize<ExchangeRate[]>(Data);
+			return Rates.Last().USDNTD;
         }
 
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

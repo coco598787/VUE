@@ -52,7 +52,8 @@
                 });
                 if(response.ok){
                     var data=await response.json();
-                    alert(JASON.stringify(data));
+                    // alert(JASON.stringify(data));
+                    this.rate=data;
                 }
             }
         };

@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebFront")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+455699250f17469cbc512a575a1cb35cd3223295")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2fdb5709fb4a075c8fdf5d86a3ba50e5660691d")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebFront")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebFront")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

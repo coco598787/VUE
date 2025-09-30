@@ -3,7 +3,7 @@
 namespace WebFront.Models
 {
 
-	public class Rootobject
+	public class ExchangeRate
 	{
 		public string Date { get; set; }
 
