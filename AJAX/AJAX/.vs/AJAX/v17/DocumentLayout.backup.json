@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\VUE\\AJAX\\AJAX\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4B4D135-CAFF-4DFF-ACC2-3E7E0F07C4EF}|WebFront\\WebFront.csproj|c:\\vue\\ajax\\ajax\\webfront\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D4B4D135-CAFF-4DFF-ACC2-3E7E0F07C4EF}|WebFront\\WebFront.csproj|solutionrelative:webfront\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D4B4D135-CAFF-4DFF-ACC2-3E7E0F07C4EF}|WebFront\\WebFront.csproj|c:\\vue\\ajax\\ajax\\webfront\\views\\home\\buy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D4B4D135-CAFF-4DFF-ACC2-3E7E0F07C4EF}|WebFront\\WebFront.csproj|solutionrelative:webfront\\views\\home\\buy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B4D135-CAFF-4DFF-ACC2-3E7E0F07C4EF}|WebFront\\WebFront.csproj|c:\\vue\\ajax\\ajax\\webfront\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D4B4D135-CAFF-4DFF-ACC2-3E7E0F07C4EF}|WebFront\\WebFront.csproj|solutionrelative:webfront\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4B4D135-CAFF-4DFF-ACC2-3E7E0F07C4EF}|WebFront\\WebFront.csproj|c:\\vue\\ajax\\ajax\\webfront\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,11 +22,15 @@
       "DocumentGroups": [
         {
           "DockedHeight": 97,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\VUE\\AJAX\\AJAX\\WebFront\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebFront\\Views\\Shared\\_Layout.cshtml",
@@ -39,13 +43,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Buy.cshtml",
               "DocumentMoniker": "C:\\VUE\\AJAX\\AJAX\\WebFront\\Views\\Home\\Buy.cshtml",
               "RelativeDocumentMoniker": "WebFront\\Views\\Home\\Buy.cshtml",
               "ToolTip": "C:\\VUE\\AJAX\\AJAX\\WebFront\\Views\\Home\\Buy.cshtml",
               "RelativeToolTip": "WebFront\\Views\\Home\\Buy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-30T08:25:18.597Z",
               "EditorCaption": ""
@@ -60,12 +64,7 @@
               "RelativeToolTip": "WebFront\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAzwE8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T08:23:27.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "WhenOpened": "2025-09-30T08:23:27.773Z"
             }
           ]
         }
