@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">  <!--View-->
+        <label>身分證字號</label>
+        <input type="text" v-model="id"/>
+        <h3>{{message.toUpperCase()}}</h3>
+    </div>
+   
+    <!-- 寫這比較好 -->    
+    <script src="https://unpkg.com/vue@3.5.22/dist/vue.global.js"></script>  
+    <script>
+        var vueApp={    
+            data(){
+                return{ //model
+                    message:""
+                };
+            },
+            methods:{ //controller
+                
+            }            
+        };
+        var app=Vue.createApp(vueApp).mount("#app"); //View
+    </script> 
+</body>
+</html>
