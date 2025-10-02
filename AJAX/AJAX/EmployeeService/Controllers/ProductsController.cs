@@ -19,9 +19,12 @@ namespace EmployeeService.Controllers
 
 		// GET: api/Products
 		[HttpGet]
-		public async Task<ProductDTO> GetProducts()
+		public async Task<IEnumerable<ProductDTO>> GetProducts()
 		{
-			
+			return _context.Products.Select(p => new ProductDTO {
+				ProductName = p.ProductName,
+				UnitPrice = p.UnitPrice,
+			});
 		}
 	}
 }
