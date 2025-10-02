@@ -4,6 +4,7 @@
 }
 
 <div id="app">
+    <label>費率選擇</label>
     <select>
         <option v-for="option in options" v-bind:value="option.price">{{option.name}}</option>
     </select>
@@ -18,6 +19,8 @@
                 return{ //model
                     options:[
                         {name:"499方案",price:499},
+                        {name:"699方案",price:649},
+                        {name:"899方案",price:799},
                     ]
                 };
             },
