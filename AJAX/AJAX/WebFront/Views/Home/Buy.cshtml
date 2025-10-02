@@ -8,7 +8,7 @@
         <h3 class="text-center">購買方案</h3>
         <div class="form-floating mb-3">
             <select class="form-select" v-model="selectedOption" v-on:change="changeOption">
-                <option v-for="option in options" v-bind:value="option.price">{{option.productName}}</option>
+                <option v-for="option in options" v-bind:value="option.unitPrice">{{option.productName}}</option>
             </select>
             <label class="form-label">手機匯率</label>
         </div> 
@@ -25,20 +25,23 @@
         var vueApp={
             data(){
                 return{ //model
-                    selectedOption:799,                    
+                    // selectedOption:799,                    
 
                     options:[]
                 };
             },
             methods:{ //controller
                 changeOption:function(){
-                    var response = await fetch(`${baseAddress}/api/Products`,{
+                    alert(this.selectedOption);
+                }
+            },
+            mounted:async function(){
+                var response = await fetch(`${baseAddress}/api/Products`,{
                         method:"GET",
                     });
                     if(response.ok){
-                        this.changeOption = await response.json();
+                        this.options = await response.json();
                     }
-                }
             }
         };
         var app=Vue.createApp(vueApp).mount("#app"); //View
