@@ -7,7 +7,7 @@
     <div class="container" style="width:40%">
         <h3 class="text-center">購買方案</h3>
         <div class="form-floating mb-3">
-            <select class="form-select">
+            <select class="form-select" v-model="selectedOption">
                 <option v-for="option in options" v-bind:value="option.price">{{option.name}}</option>
             </select>
             <label class="form-label">手機匯率</label>
@@ -24,6 +24,8 @@
         var vueApp={
             data(){
                 return{ //model
+                    selectedOption:649,
+
                     options:[
                         {name:"499方案",price:499},
                         {name:"699方案",price:649},
