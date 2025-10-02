@@ -1,9 +1,11 @@
 ﻿using EmployeeService.Models;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeService.Controllers
 {
+	[EnableCors("WebFront")]
 	[Route("api/[controller]")]
 	[ApiController]
 	public class ProductsController : ControllerBase
