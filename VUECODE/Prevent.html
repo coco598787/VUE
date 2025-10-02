@@ -6,7 +6,8 @@
 </head>
 <body>
     <div id="app">  <!--View-->
-        <a href="https://vuejs.org/" v-on:click="browse">VUE官網</a>
+        <!-- 這個連結會被prevent,停止預設行為 -->
+        <a href="https://vuejs.org/" v-on:click.prevent="browse">VUE官網</a>
     </div>
    
     <!-- 寫這比較好 -->    
