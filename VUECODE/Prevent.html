@@ -6,7 +6,7 @@
 </head>
 <body>
     <div id="app">  <!--View-->
-        <a href="https://vuejs.org/">VUE官網</a>
+        <a href="https://vuejs.org/" v-on:click="browse">VUE官網</a>
     </div>
    
     <!-- 寫這比較好 -->    
@@ -19,7 +19,9 @@
                 };
             },
             methods:{ //controller
-                
+                browse:function(){
+                    alert("瀏覽");
+                }
             }            
         };
         var app=Vue.createApp(vueApp).mount("#app"); //View
