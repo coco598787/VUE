@@ -5,7 +5,7 @@
 
 <div id="app">
     <select>
-        <option v-for="option in options"></option>
+        <option v-for="option in options" v-bind:value="option.price">{{option.name}}</option>
     </select>
 </div>
 
@@ -16,7 +16,9 @@
         var vueApp={
             data(){
                 return{ //model
-                    
+                    options:[
+                        {name:"499方案",price:499},
+                    ]
                 };
             },
             methods:{ //controller
