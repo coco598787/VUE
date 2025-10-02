@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using EmployeeService.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeService.Controllers
@@ -7,5 +8,11 @@ namespace EmployeeService.Controllers
 	[ApiController]
 	public class ProductsController : ControllerBase
 	{
+		NorthwindContext _context;
+
+		public ProductsController(NorthwindContext context)
+		{
+			_context = context;
+		}
 	}
 }
