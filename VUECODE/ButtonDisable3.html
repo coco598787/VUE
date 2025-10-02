@@ -9,11 +9,11 @@
     <div id="app" class="container" style="width: 40%;">  <!--View-->
         <h3 class="mb-3 text-center">身分驗證</h3>
         <div class="form-floating mb-3">
-            <input class="form-control" v-model="userName" placeholder="" v-on:keyup.enter="enableLogin"/>
+            <input class="form-control" v-model="userName" placeholder="" v-on:keyup="enableLogin" v-on:keeypress.enter="login"/>
             <label for="form-label">帳號</label>
         </div>
         <div class="form-floating mb-3">
-            <input type="password" class="form-control" v-model="password" placeholder="" v-on:keyup.enter="enableLogin"/>
+            <input type="password" class="form-control" v-model="password" placeholder="" v-on:keyup="enableLogin" v-on:keeypress.enter="login"/>
             <label for="form-label">密碼</label>
         </div>
         <div class="mb-3">
