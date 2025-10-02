@@ -1,4 +1,4 @@
-﻿namespace EmployeeService.DTO
+﻿namespace EmployeeService.Controllers
 {
 	public class ProductDTO
 	{
