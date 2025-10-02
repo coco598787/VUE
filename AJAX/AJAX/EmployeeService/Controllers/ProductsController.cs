@@ -14,5 +14,12 @@ namespace EmployeeService.Controllers
 		{
 			_context = context;
 		}
+
+		// GET: api/Products
+		[HttpGet]
+		public async Task<ProductDTO> GetProducts()
+		{
+			
+		}
 	}
 }
