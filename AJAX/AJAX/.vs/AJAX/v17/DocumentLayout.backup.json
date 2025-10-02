@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\VUE\\AJAX\\AJAX\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79D47B09-6386-43FE-942A-F462B3D3DE15}|EmployeeService\\EmployeeService.csproj|c:\\vue\\ajax\\ajax\\employeeservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{79D47B09-6386-43FE-942A-F462B3D3DE15}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D4B4D135-CAFF-4DFF-ACC2-3E7E0F07C4EF}|WebFront\\WebFront.csproj|c:\\vue\\ajax\\ajax\\webfront\\views\\home\\buy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D4B4D135-CAFF-4DFF-ACC2-3E7E0F07C4EF}|WebFront\\WebFront.csproj|solutionrelative:webfront\\views\\home\\buy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79D47B09-6386-43FE-942A-F462B3D3DE15}|EmployeeService\\EmployeeService.csproj|c:\\vue\\ajax\\ajax\\employeeservice\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79D47B09-6386-43FE-942A-F462B3D3DE15}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79D47B09-6386-43FE-942A-F462B3D3DE15}|EmployeeService\\EmployeeService.csproj|c:\\vue\\ajax\\ajax\\employeeservice\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79D47B09-6386-43FE-942A-F462B3D3DE15}|EmployeeService\\EmployeeService.csproj|solutionrelative:employeeservice\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4B4D135-CAFF-4DFF-ACC2-3E7E0F07C4EF}|WebFront\\WebFront.csproj|c:\\vue\\ajax\\ajax\\webfront\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4B4D135-CAFF-4DFF-ACC2-3E7E0F07C4EF}|WebFront\\WebFront.csproj|solutionrelative:webfront\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4B4D135-CAFF-4DFF-ACC2-3E7E0F07C4EF}|WebFront\\WebFront.csproj|c:\\vue\\ajax\\ajax\\webfront\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D4B4D135-CAFF-4DFF-ACC2-3E7E0F07C4EF}|WebFront\\WebFront.csproj|solutionrelative:webfront\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 190,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,76 +26,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\VUE\\AJAX\\AJAX\\EmployeeService\\appsettings.json",
-              "RelativeDocumentMoniker": "EmployeeService\\appsettings.json",
-              "ToolTip": "C:\\VUE\\AJAX\\AJAX\\EmployeeService\\appsettings.json*",
-              "RelativeToolTip": "EmployeeService\\appsettings.json*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-02T02:41:38.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeesController.cs",
-              "DocumentMoniker": "C:\\VUE\\AJAX\\AJAX\\EmployeeService\\Controllers\\EmployeesController.cs",
-              "RelativeDocumentMoniker": "EmployeeService\\Controllers\\EmployeesController.cs",
-              "ToolTip": "C:\\VUE\\AJAX\\AJAX\\EmployeeService\\Controllers\\EmployeesController.cs",
-              "RelativeToolTip": "EmployeeService\\Controllers\\EmployeesController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAswA0AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T01:51:36.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "C:\\VUE\\AJAX\\AJAX\\EmployeeService\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "EmployeeService\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\VUE\\AJAX\\AJAX\\EmployeeService\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "EmployeeService\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAcwBEAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA2wBoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T01:47:18.269Z"
+              "WhenOpened": "2025-10-02T02:47:36.574Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\VUE\\AJAX\\AJAX\\WebFront\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebFront\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\VUE\\AJAX\\AJAX\\WebFront\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebFront\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADQAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-30T08:25:42.152Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\VUE\\AJAX\\AJAX\\WebFront\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebFront\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\VUE\\AJAX\\AJAX\\WebFront\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebFront\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAzwE8AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T08:23:27.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Buy.cshtml",
               "DocumentMoniker": "C:\\VUE\\AJAX\\AJAX\\WebFront\\Views\\Home\\Buy.cshtml",
               "RelativeDocumentMoniker": "WebFront\\Views\\Home\\Buy.cshtml",
               "ToolTip": "C:\\VUE\\AJAX\\AJAX\\WebFront\\Views\\Home\\Buy.cshtml",
               "RelativeToolTip": "WebFront\\Views\\Home\\Buy.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-30T08:25:18.597Z"
+              "WhenOpened": "2025-09-30T08:25:18.597Z",
+              "EditorCaption": ""
             }
           ]
         }

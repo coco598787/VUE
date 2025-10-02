@@ -1,4 +1,5 @@
-﻿using EmployeeService.Models;
+﻿using EmployeeService.DTO;
+using EmployeeService.Models;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
