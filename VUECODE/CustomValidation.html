@@ -49,6 +49,9 @@
                     if(this.name.length == 0){
                         this.errors.push("姓名未填寫");
                     }
+                    if(this.age < 20 || this.age >=55){
+                        this.errors.push("年齡不正確");
+                    }
                 }
             }            
         };
