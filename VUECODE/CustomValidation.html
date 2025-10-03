@@ -45,6 +45,7 @@
             methods:{ //controller
                 validate:function(){
                     // alert("validate");
+                    this.errors=[]; //清空錯誤訊息
                     if(this.name.length == 0){
                         this.errors.push("姓名未填寫");
                     }
