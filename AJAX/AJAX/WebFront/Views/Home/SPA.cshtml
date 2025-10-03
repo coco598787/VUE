@@ -13,7 +13,7 @@
                     <button class="btn btn-primary" title="新增員工紀錄">新增</button>
                 </td>
                 <td class="form-floating" style="width:50%">
-                    <input v-model="keywork" class="form-control" placeholder=""/>
+                    <input v-model="keywork" class="form-control" placeholder="" v-on:keyup="filterEmployees"/>
                     <label class="form-label">篩選關鍵字</label>
                 </td>
             </tr>
@@ -42,7 +42,9 @@
                 };
             },
             methods:{ //controller
-
+                filterEmployees:function(){
+                    alert("filterEmployees");
+                }
             }
         };
         var app=Vue.createApp(vueApp).mount("#app"); //View
