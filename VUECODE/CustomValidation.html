@@ -52,9 +52,8 @@
                     if(this.age < 20 || this.age >=55){
                         this.errors.push("年齡不正確");
                     }
-                    if(this.errors.length == 0){    //沒有錯誤訊息
-                        //submit
-                        this.$refs.myForm.submit();
+                    if(this.errors.length == 0){    //沒有錯誤訊息                        
+                        this.$refs.myForm.submit(); //submit
                     }
                 }
             }            
