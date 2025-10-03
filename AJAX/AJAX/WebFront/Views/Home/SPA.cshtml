@@ -12,7 +12,10 @@
                 <td>
                     <button class="btn btn-primary" title="新增員工紀錄">新增</button>
                 </td>
-                <td></td>
+                <td class="form-floating">
+                    <input v-model="keywork" class="form-control" placeholder=""/>
+                    <label class="form-label">篩選關鍵字</label>
+                </td>
             </tr>
         </table>
     </div>
@@ -35,7 +38,7 @@
         var vueApp={
             data(){
                 return{ //model
-                    
+                    keywork:"",
                 };
             },
             methods:{ //controller
